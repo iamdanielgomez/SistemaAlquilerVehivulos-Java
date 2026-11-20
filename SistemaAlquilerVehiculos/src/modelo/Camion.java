@@ -4,7 +4,7 @@ public class Camion extends Vehiculo{
     private int numeroPuertas;
     private String tipoCombustible;
 
-    public Camioneta(String marca, String modelo, String color, String placa, int numeroPuertas, String tipoCombustible){
+    public Camion(String marca, String modelo, String color, String placa, int numeroPuertas, String tipoCombustible){
         super(marca, modelo, color, placa);
         this.numeroPuertas = numeroPuertas;
         this.tipoCombustible = tipoCombustible;
